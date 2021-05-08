@@ -64,5 +64,5 @@ def map(data, lat, lon, zoom):
     ))
 
 
-st.write("**All New York City from %i:00 and %i:00**")
+st.write("各区域招聘数据分布图")
 map(df, 31.23035, 121.473717, 10)
