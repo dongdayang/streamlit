@@ -14,7 +14,7 @@ st.set_page_config(layout="wide")
 @st.cache(persist=True)
 
 def load_data(lat, lon, district, state):
-    df0 = pd.read_excel('C:/Users/qq947/Desktop/Q1.xlsx',
+    df0 = pd.read_excel('./Q1.xlsx',
                         sheet_name=state, )
     count = df0['组织区域'][df0['组织区域'] == district].count()
 
