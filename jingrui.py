@@ -110,6 +110,6 @@ with row1_2:
 with row1_3:
     st.write("各大区招聘直方图")
 
-    chart_data = df5
+    chart_data = df4
 
     st.bar_chart(chart_data)
