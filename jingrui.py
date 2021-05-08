@@ -8,14 +8,14 @@ import pydeck as pdk
 # SETTING PAGE CONFIG TO WIDE MODE
 st.set_page_config(layout="wide")
 
-
 # LOADING DATA
-
-@st.cache(persist=True)
-
 DATA_URL = (
     "https://github.com/dongdayang/streamlit/blob/main/Q1.xlsx?raw=true"
 )
+
+
+@st.cache(persist=True)
+
 def load_data(lat, lon, district, state):
     df0 = pd.read_excel(DATA_URL,
                         sheet_name=state, )
