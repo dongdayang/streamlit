@@ -10,7 +10,7 @@ st.set_page_config(layout="wide")
 
 # LOADING DATA
 DATA_URL = (
-    "https://github.com/dongdayang/streamlit/blob/main/Q1.xlsx?raw=true"
+    "https://github.com/dongdayang/streamlit/blob/main/Q1.xlsx"
 )
 
 
