@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import altair as alt
 import pydeck as pdk
-import xldr
+
 # SETTING PAGE CONFIG TO WIDE MODE
 st.set_page_config(layout="wide")
 
