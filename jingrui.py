@@ -14,7 +14,7 @@ DATA_URL = (
 )
 
 
-#@st.cache(persist=True)
+@st.cache(persist=True)
 
 def load_data(lat, lon, district, state):
     df0 = pd.read_excel(DATA_URL,
