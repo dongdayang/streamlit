@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import altair as alt
 import pydeck as pdk
-import openpyxl
 
 
 # SETTING PAGE CONFIG TO WIDE MODE
@@ -11,7 +10,7 @@ st.set_page_config(layout="wide")
 
 # LOADING DATA
 DATA_URL = (
-    "https://github.com/dongdayang/streamlit/blob/main/Q1.xlsx"
+    "https://github.com/dongdayang/streamlit/blob/main/Q1.xlsx?raw=true"
 )
 
 
