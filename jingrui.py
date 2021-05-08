@@ -18,7 +18,7 @@ DATA_URL = (
 
 def load_data(lat, lon, district, state):
     df0 = pd.read_excel(DATA_URL,
-                        sheet_name=state, )
+                        sheet_name=state, engine='openpyxl')
     count = df0['组织区域'][df0['组织区域'] == district].count()
 
     df1 = pd.DataFrame(
