@@ -57,7 +57,7 @@ def map(data, lat, lon, zoom):
                 radius=100,
                 elevation_scale=2,
                 elevation_range=[0, 1000],
-                pickable=False,
+                pickable=True,
                 extruded=True,
             ),
         ],
