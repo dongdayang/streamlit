@@ -59,7 +59,7 @@ df4 = pd.DataFrame(df2)
 df4.columns = ['入职']
 df5 = pd.DataFrame(df3)
 df5.columns = ['离职']
-df4['离职'] = df5['离职']
+df4['离职'] = -df5['离职']
 
 
 # print(df4)
