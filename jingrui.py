@@ -13,9 +13,7 @@ st.set_page_config(layout="wide")
 
 @st.cache(persist=True)
 
-DATA_URL = (
-    "https://github.com/dongdayang/streamlit/blob/main/Q1.xlsx"
-)
+DATA_URL =("https://github.com/dongdayang/streamlit/blob/main/Q1.xlsx")
 def load_data(lat, lon, district, state):
     df0 = pd.read_excel(DATA_URL,
                         sheet_name=state, )
